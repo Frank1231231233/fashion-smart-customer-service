@@ -1,0 +1,17 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+traces/
+app/trace/*.jsonl
+data/*.db
+data/*.jsonl
+data/chroma/
+
+# 个人文件与内部文档,不上传
+SYSTEM_PROMPTS.md
+服装智能客服开发任务书.md
+落地任务书.md
+郑富林的简历-*.pdf
